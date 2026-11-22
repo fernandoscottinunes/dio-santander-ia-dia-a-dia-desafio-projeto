@@ -54,34 +54,49 @@ Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal 
 
 ### Minha Tarefa Real
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+Diariamente eu faço uma pesquisa manual sobre as principais notícias relacionadas a Inteligência Artificial, usando o Google ou o Gemini. Esta atividade toma algum tempo de pesquisa e triagem, o que demanda relativo esforço.
+Para este projeto, eu deleguei esta tarefa para a IA do Google, o Gemini. Para implementação, usei o recurso "Programado" do aplicativo Gemini e usei a versão Desktop para implementação.
 
 ### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
-
-```text
-Cole aqui o seu primeiro atalho, já adaptado.
-```
-
-```text
-Cole aqui o seu segundo atalho, já adaptado.
-```
+Optei por não usar os modelos fornecidos. Criei um `system prompt` do zero, com base na experiência acumulada de mais de um ano usando ferramentas como o ChatGPT, Gemini e Claude para tarefas do dia a dia, adaptada ao framewor CIOF apresentado pelo **Expert Bruno Lima**. 
+Em minha jornada aprendi a refinar meus prompts de forma iterativa, obtendo respostas cada vez mais assertivas a cada iteração. Começo com um prompt inicial e vou refinando até obter um resultado satisfatório para o propósito desejado. 
 
 ### Minha Delegação
 
+Abaixo está o `system prompt` final, usado para a execução da tarefa. Foram realizadas, pelo menos, 5 iterações até chegar nesta versão. 
+
 ```text
-Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
+# CONTEXTO
+Sou um profissional em transição de carreira, com mais de 20 anos atuando com automação e sistemas industriais. Pretendo transicionar para uma carreira em automação com agentes de inteligência artificial e construção de sistemas agênticos. Estou em uma fase de discovery, conhecendo o mercado e definindo a melhor área/nicho para atuação. 
+
+# INSTRUÇÃO
+Reúna as 10 principais notícias do dia sobre o mercado de Inteligência Artificial, principais tendências, inovações, desenvolvimentos, tecnologias, demandas do mercado relacionados a Inteligência Artificial, Automações com IA e Sistemas Agênticos.
+
+# OBJETIVO
+O objetivo desta tarefa é permitir conhecer o mercado e suas tendências, e fornecer subsídio para tomada de decisão sobre potencial nicho/sub-nicho de atuação.
+
+# FORMATO
+Elabore um email com o resumos das notícias encontradas, informando o título da notícia, um breve resumo do tema, o veículo que divulgou a notícia e o link da matéria. Envie este email para fernando.scottinunes@gmail.com.
+
+# LIMITES
+- Liste, no máximo, 10 notícias
+- Desconsidere postagens em redes sociais. Quero somente as notícias originais.
+- Desconsidere plataformas de conteúdo pago. Quero somente notícias de veículos de mídia abertos ao público em geral.
+- Reunir notícias veiculadas há, no máximo, 3 dias da data atual.
+- Pesquisar e reunir somente notícias nos idiomas Português (Brasileiro) e Inglês.
 ```
-
-### O Plano da IA
-
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
 
 ### O Resultado
 
-_Cole o print do resultado e conte como você conferiu antes de usar._
+Resultado da primeira execução:
+
+<img width="1607" height="879" alt="image" src="https://github.com/user-attachments/assets/2dbfccc6-fa7e-4e2d-98d2-89c9119f52e9" />
+
+<img width="1608" height="880" alt="image" src="https://github.com/user-attachments/assets/b2294cd6-588b-448b-917e-1b8cfbf13753" />
+
 
 ### Como Foi para Você
 
-_Conte em poucas linhas o que mudou no seu dia a dia._
+Esta foi a minha primeira implementação de automação de tarefas que realizo diariamente. Trata-se de uma tarefa de caráter e interesse estritamente pessoal, mas que me consome um bom tempo diário de garimpo, e ainda assim alcanço resultados limitados devido ao esforço necessário em realizar a tarefa. 
+Fiquei surpreso com os resultados obtidos e o quanto essa tarefa simples desonerou o meu dia. 
